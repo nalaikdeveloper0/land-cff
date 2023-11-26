@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+
+#card {
+    height: 85%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#nav h2:nth-child(1) {
+    margin-left: 0%;
+}
+
+#nav h2 {
+    margin-left: 10%;
+    margin-right: 1%;
+}
+
+#nav {
+    /* gap: 10%; */
+    height: 11%;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 40px;
+    background-color: aquamarine;
+}
+
+#cbtm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(196, 226, 132);
+}
+
+#bubble {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: crimson;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
